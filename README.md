@@ -49,3 +49,11 @@ $ npm run dev:server
   	<ol>center: alinha os itens no centro do container</ol>
    	<ol>space-between: distribui os itens com espaço igual entre eles</ol>
     	<ol>space-around: distribui os itens com espaço igual ao redor deles</ol>
+<h4>2) align-items</h4>
+<p>Tem como função alinhar os itens ao longo do eixo transversal (geralmente vertical). Seus valores são:</p>
+	<ol>flex-start: alinha os itens no início do eixo transversal</ol>
+ 	<ol>flex-end: alinha os itens no final do eixo transversal</ol>
+  	<ol>center: alinha os itens no centro do eixo transversal</ol>
+   	<ol>baseline: alinha os itens com base na linha de texto</ol>
+    	<ol>stretch: estica os itens para preencher o eixo transversal</ol>
+
