@@ -61,5 +61,12 @@ $ npm run dev:server
 	<ol>flex-start: alinha o iten no início do eixo transversal</ol>
  	<ol>flex-end: alinha o iten no final do eixo transversal</ol>
   	<ol>center: alinha o iten no centro do eixo transversal</ol>
+<h4>4) flex-direction</h4>
+<p>Tem como função definir a direção do eixo principal. Exemplo:</p>
+	<ol>row: alinha os itens em uma linha horizontal</ol>
+ 	<ol>row-reverse: alinha os itens em uma linha horizontal, mas na ordem inversa</ol>
+  	<ol>column: alinha os itens em uma coluna vertical</ol>
+   	<ol>column-reverse: alinha os itens em uma coluna vertical, mas na ordem inversa</ol>
+    	
  
 
