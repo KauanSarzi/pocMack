@@ -77,6 +77,10 @@ $ npm run dev:server
 	<ol>nowrap: os itens permanecem em uma única linha.</ol>
  	<ol>wrap: os itens quebram para a próxima linha se necessário.</ol>
   	<ol>wrap-reverse: as linhas são empilhadas na direção oposta.</ol>
+
+   |![https://github.com/freitasszz](https://avatars.githubusercontent.com/u/179886040?v=4) <br> <sub> Gabriel Freitas </sub> | ![Bruna Zakaib](https://avatars.githubusercontent.com/u/130071892?v=4) <br> <sub> Bruna Zakaib </sub> | ![Isabela Realli](https://avatars.githubusercontent.com/u/180230011?v=4) <br> <sub> Isabela Realli </sub> | ![Beatriz Soares](https://avatars.githubusercontent.com/u/180229545?v=4) <br> <sub> Beatriz Soares </sub> |
+| --- | --- | --- | --- |
+| [Gabriel Freitas](https://github.com/freitasszz) | [Bruna Zakaib](https://github.com/brunazpessoa) | [Isabela Realli](https://github.com/IsabelaReali) | [Beatriz Soares](https://github.com/Beatriz-sol) |
    
    
 
