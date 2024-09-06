@@ -18,11 +18,12 @@
 </h4>
 
 <h3 align="left">Pré-requisitos para rodar o código</h3> 
-<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Git](https://github.com/), [Node.js](https://nodejs.org/en/). 
-Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)</p>
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-<h3 align="left">🎲Colocando para funcionar</h3> 
+
+<h3 align="left">Colocando para funcionar 🎲</h3> 
 
 ```bash
 # Clone este repositório
@@ -77,6 +78,8 @@ $ npm run dev:server
 	<ol>nowrap: os itens permanecem em uma única linha.</ol>
  	<ol>wrap: os itens quebram para a próxima linha se necessário.</ol>
   	<ol>wrap-reverse: as linhas são empilhadas na direção oposta.</ol>
+
+<h3>Contribuidores</h3>
 
    |![https://github.com/freitasszz](https://avatars.githubusercontent.com/u/179886040?v=4) <br> <sub> Gabriel Freitas </sub> | ![https://github.com/KauanSarzi] ( link avatar ) <br> <sub> Kauan Sarzi </sub> | ![https://github.com/Liminha300](link avatar) <br> <sub> Ricardo Kawamuro </sub> |
 | [Gabriel Freitas](https://github.com/freitasszz) | [Kauan Sarzi](https://github.com/KauanSarzi) | [Ricardo Kawamuro](https://github.com/Liminha300) | 
