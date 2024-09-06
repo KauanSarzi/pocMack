@@ -43,17 +43,23 @@ $ npm run dev:server
 <h3 align="left">O Projeto</h3>
 <h4 align="left">Aqui você vai encontrar a explicação de cada flebox existente</h4>
 <h4>1) justify-content</h4>
-<p>Tem como função alinhar os itens no eixo principal (geralmente na horizontal). Seus valores são:</p>
+<p>Tem como função alinhar os itens no eixo principal (geralmente na horizontal). Exemplo:</p>
 	<ol>flex-start: alinha os itens no início do container</ol>
  	<ol>flex-end: alinha os itens no final do container</ol>
   	<ol>center: alinha os itens no centro do container</ol>
    	<ol>space-between: distribui os itens com espaço igual entre eles</ol>
     	<ol>space-around: distribui os itens com espaço igual ao redor deles</ol>
 <h4>2) align-items</h4>
-<p>Tem como função alinhar os itens ao longo do eixo transversal (geralmente vertical). Seus valores são:</p>
+<p>Tem como função alinhar os itens ao longo do eixo transversal (geralmente vertical). Exemplo:</p>
 	<ol>flex-start: alinha os itens no início do eixo transversal</ol>
  	<ol>flex-end: alinha os itens no final do eixo transversal</ol>
   	<ol>center: alinha os itens no centro do eixo transversal</ol>
    	<ol>baseline: alinha os itens com base na linha de texto</ol>
     	<ol>stretch: estica os itens para preencher o eixo transversal</ol>
+<h4>3) align-self</h4>
+<p>Tem como função fazer um item específico se alinhar de forma diferente dos outros itens no container. Exemplo:</p>
+	<ol>flex-start: alinha o iten no início do eixo transversal</ol>
+ 	<ol>flex-end: alinha o iten no final do eixo transversal</ol>
+  	<ol>center: alinha o iten no centro do eixo transversal</ol>
+ 
 
