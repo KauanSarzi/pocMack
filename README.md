@@ -44,29 +44,42 @@ $ npm run dev:server
 <h4 align="left">Aqui você vai encontrar a explicação de cada flebox existente</h4>
 <h4>1) justify-content</h4>
 <p>Tem como função alinhar os itens no eixo principal (geralmente na horizontal). Exemplo:</p>
-	<ol>flex-start: alinha os itens no início do container</ol>
- 	<ol>flex-end: alinha os itens no final do container</ol>
-  	<ol>center: alinha os itens no centro do container</ol>
-   	<ol>space-between: distribui os itens com espaço igual entre eles</ol>
-    	<ol>space-around: distribui os itens com espaço igual ao redor deles</ol>
+	<ol>flex-start: alinha os itens no início do container.</ol>
+ 	<ol>flex-end: alinha os itens no final do container.</ol>
+  	<ol>center: alinha os itens no centro do container.</ol>
+   	<ol>space-between: distribui os itens com espaço igual entre eles.</ol>
+    	<ol>space-around: distribui os itens com espaço igual ao redor deles.</ol>
 <h4>2) align-items</h4>
 <p>Tem como função alinhar os itens ao longo do eixo transversal (geralmente vertical). Exemplo:</p>
-	<ol>flex-start: alinha os itens no início do eixo transversal</ol>
- 	<ol>flex-end: alinha os itens no final do eixo transversal</ol>
-  	<ol>center: alinha os itens no centro do eixo transversal</ol>
-   	<ol>baseline: alinha os itens com base na linha de texto</ol>
-    	<ol>stretch: estica os itens para preencher o eixo transversal</ol>
+	<ol>flex-start: alinha os itens no início do eixo transversal.</ol>
+ 	<ol>flex-end: alinha os itens no final do eixo transversal.</ol>
+  	<ol>center: alinha os itens no centro do eixo transversal.</ol>
+   	<ol>baseline: alinha os itens com base na linha de texto.</ol>
+    	<ol>stretch: estica os itens para preencher o eixo transversal.</ol>
 <h4>3) align-self</h4>
 <p>Tem como função fazer um item específico se alinhar de forma diferente dos outros itens no container. Exemplo:</p>
-	<ol>flex-start: alinha o iten no início do eixo transversal</ol>
- 	<ol>flex-end: alinha o iten no final do eixo transversal</ol>
-  	<ol>center: alinha o iten no centro do eixo transversal</ol>
+	<ol>flex-start: alinha o iten no início do eixo transversal.</ol>
+ 	<ol>flex-end: alinha o iten no final do eixo transversal.</ol>
+  	<ol>center: alinha o iten no centro do eixo transversal.</ol>
 <h4>4) flex-direction</h4>
 <p>Tem como função definir a direção do eixo principal. Exemplo:</p>
-	<ol>row: alinha os itens em uma linha horizontal</ol>
- 	<ol>row-reverse: alinha os itens em uma linha horizontal, mas na ordem inversa</ol>
-  	<ol>column: alinha os itens em uma coluna vertical</ol>
-   	<ol>column-reverse: alinha os itens em uma coluna vertical, mas na ordem inversa</ol>
+	<ol>row: alinha os itens em uma linha horizontal.</ol>
+ 	<ol>row-reverse: alinha os itens em uma linha horizontal, mas na ordem inversa.</ol>
+  	<ol>column: alinha os itens em uma coluna vertical.</ol>
+   	<ol>column-reverse: alinha os itens em uma coluna vertical, mas na ordem inversa.</ol>
+<h4>5) order</h4>
+<p>Tem como função controlar a ordem dos itens no container. Exemplo:</p>
+	<ol>order: 1: o item aparece primeiro.</ol>
+ 	<ol>order: 2: o item aparece em segundo.</ol>
+  	<ol>order: 3: o item aparece em terceiro lugar.</ol>
+<h4>6) flex-wrap</h4>
+<p>Tem como função decidir se os itens devem quebrar para a próxima linha quando não há espaço. Exemplo:</p>
+	<ol>nowrap: os itens permanecem em uma única linha.</ol>
+ 	<ol>wrap: os itens quebram para a próxima linha se necessário.</ol>
+  	<ol>wrap-reverse: as linhas são empilhadas na direção oposta.</ol>
+   
+   
+
     	
  
 
