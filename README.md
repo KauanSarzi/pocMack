@@ -78,7 +78,7 @@ $ npm run dev:server
  	<ol>wrap: os itens quebram para a próxima linha se necessário.</ol>
   	<ol>wrap-reverse: as linhas são empilhadas na direção oposta.</ol>
 
-   |![https://github.com/freitasszz](https://avatars.githubusercontent.com/u/179886040?v=4) <br> <sub> Gabriel Freitas </sub> | ![https://github.com/KauanSarzi]( link avatar ) <br> <sub> Kauan Sarzi </sub> | ![https://github.com/Liminha300](link avatar) <br> <sub> Ricardo Kawamuro </sub> |
+   |![https://github.com/freitasszz](https://avatars.githubusercontent.com/u/179886040?v=4) <br> <sub> Gabriel Freitas </sub> | ![https://github.com/KauanSarzi] ( link avatar ) <br> <sub> Kauan Sarzi </sub> | ![https://github.com/Liminha300](link avatar) <br> <sub> Ricardo Kawamuro </sub> |
 | [Gabriel Freitas](https://github.com/freitasszz) | [Kauan Sarzi](https://github.com/KauanSarzi) | [Ricardo Kawamuro](https://github.com/Liminha300) | 
    
 
