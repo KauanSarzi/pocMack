@@ -10,7 +10,7 @@
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#contribuicao">Contribuição</a> • 
  <a href="#licenc-a">Licença</a> • 
- <a href="https://github.com/KauanSarzi/pocMack/edit/main/README.md#por-tr%C3%A1s-do-projeto">Autor</a>
+ <a href="">Autor</a>
 </p>
 
 <h4 align="center"> 
@@ -38,3 +38,4 @@ $ npm run dev:server
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
 <h3 align"left">Por trás do projeto</h3>
+<p>Feito através de um código HTML e CSS, o projeto apresenta uma página que contém exemplos das principais propriedades do Flexbox. Nosso objetivo é mostrar como cada elemento pode se adequadr a diferentes tipos de projetos </p>
