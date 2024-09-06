@@ -37,7 +37,15 @@ $ npm install
 $ npm run dev:server
 # O servidor inciará na porta:3333 - acesse <http://localhost:3333>
 ```
-<h3 align"left">Por trás do projeto</h3>
+<h3 align="left">Por trás do projeto</h3>
 <p>Feito através de um código HTML e CSS, o projeto apresenta uma página que contém exemplos das principais propriedades do Flexbox. Nosso objetivo é mostrar como cada elemento pode se adequadr a diferentes tipos de projetos </p>
 
-<h3 aling"left"
+<h3 align="left">O Projeto</h3>
+<h4 align="left">Aqui você vai encontrar a explicação de cada flebox existente</h4>
+<h4>1) justify-content</h4>
+<p>Tem como função alinhar os itens no eixo principal (geralmente na horizontal). Seus valores são:</p>
+	<ol>flex-start: alinha os itens no início do container</ol>
+ 	<ol>flex-end: alinha os itens no final do container</ol>
+  	<ol>center: alinha os itens no centro do container</ol>
+   	<ol>space-between: distribui os itens com espaço igual entre eles</ol>
+    	<ol>space-around: distribui os itens com espaço igual ao redor deles</ol>
