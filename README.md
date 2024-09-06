@@ -19,7 +19,7 @@
 
 <h3 align="left">Pré-requisitos para rodar o código</h3> 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-GitHub(https://git-scm.com), Node.js(https://nodejs.org/en/). 
+GitHub(https://github.com/), Node.js(https://nodejs.org/en/). 
 Além disto é bom ter um editor para trabalhar com o código como VSCode(https://code.visualstudio.com/)
 
 
