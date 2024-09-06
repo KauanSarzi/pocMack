@@ -1,0 +1,225 @@
+
+body{
+  background-color: gainsboro;
+}
+
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+h4{
+  
+  margin-bottom: 20px;
+
+}
+
+
+.item{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+
+.center{
+    display: flex;
+    background-color: red;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.around{
+    display: flex;
+    background-color: red;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+
+
+  .between{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
+  .evenly{
+    display: flex;
+    background-color: red;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+
+.end{
+  display: flex;
+  background-color: red;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+
+
+.start{
+  display: flex;
+  background-color: red;
+  justify-content: flex-start;
+  margin-top: 25px;
+}
+
+
+
+
+.coluna{
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    height: 240px;
+}
+
+
+
+.reversa{
+  display: flex;
+  background-color: red;
+  flex-direction: column-reverse;
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+  .linha{
+    display: flex;
+    background-color: red;
+    flex-direction: row;
+    margin-bottom: 20px;
+ 
+}
+
+
+
+  .baseline{
+    display: flex;
+    background-color: red;
+    
+    align-items: baseline;
+      
+ 
+}
+
+
+  .base{
+    font-size: 10px;
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+
+  }
+
+
+  .stretch{ 
+    display: flex;
+    background-color: red;
+    align-items: stretch;
+      
+
+
+  }
+
+
+
+
+
+.order{
+  display: flex;
+  background-color: red;
+  flex-wrap: wrap;
+  justify-content: center;
+
+
+
+}
+
+
+  .item1 {
+    order: 2; 
+}
+
+.item2 {
+    order: 3; 
+}
+
+.item3 {
+    order: 1; 
+}
+
+.item4 {
+    order: 5; 
+}
+
+.item5 {
+    order: 4;
+}
+
+.item6 {
+    order: 0; /
+}
+
+
+
+
+
+
+
+
+.wrap{
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+ 
+}
+
+
+
+
+  .reversewrap{
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap-reverse;
+    
+
+  }
+
+
+
+  .nowrap{
+    display: flex;
+    background-color: red;
+    flex-wrap: nowrap;
+    
+  }
+
+
+
+
+
