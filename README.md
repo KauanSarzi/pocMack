@@ -27,16 +27,16 @@ Além disto é bom ter um editor para trabalhar com o código como VSCode (https
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/tgmarinho/nlw1>
+$ git clone https://github.com/KauanSarzi/pocMack.git
 # Acesse a pasta do projeto no terminal/cmd
-$ cd nlw1
+$ pocMack
 # Vá para a pasta server
-$ cd server
+$ README.md
 # Instale as dependências
 $ npm install
 # Execute a aplicação em modo de desenvolvimento
 $ npm run dev:server
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+
 ```
 <h3 align="left">Por trás do projeto</h3>
 <p>Feito através de um código HTML e CSS, o projeto apresenta uma página que contém exemplos das principais propriedades do Flexbox. Nosso objetivo é mostrar como cada elemento pode se adequadr a diferentes tipos de projetos </p>
