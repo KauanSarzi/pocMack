@@ -6,11 +6,11 @@
 <p align="center">👇🏼Acesse os nossos conteúdos de forma rápida👇🏼</p>
 <p align="center">
  <a>Conteúdos</a> •
- <a href="#Pré-requisitos para rodar o códig">Pré-requisitos</a> • 
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="">Autor</a>
+ <a>Pré-requisitos</a> • 
+ <a>Tecnologias</a> • 
+ <a>Contribuição</a> • 
+ <a>Licença</a> • 
+ <a>Autor</a>
 </p>
 
 <h4 align="center"> 
@@ -81,9 +81,11 @@ $ npm run dev:server
 
 <h3>Contribuidores</h3>
 
-   |![https://github.com/freitasszz](https://avatars.githubusercontent.com/u/179886040?v=4) <br> <sub> Gabriel Freitas </sub> | ![https://github.com/KauanSarzi] ( link avatar ) <br> <sub> Kauan Sarzi </sub> | ![https://github.com/Liminha300](link avatar) <br> <sub> Ricardo Kawamuro </sub> |
-| [Gabriel Freitas](https://github.com/freitasszz) | [Kauan Sarzi](https://github.com/KauanSarzi) | [Ricardo Kawamuro](https://github.com/Liminha300) | 
-   
+
+![https://github.com/freitasszz](https://avatars.githubusercontent.com/u/179886040?v=4) <br> <sub> Gabriel Freitas </sub> | ![https://github.com/KauanSarzi](https://avatars.githubusercontent.com/u/130071892?v=4) <br> <sub> Kauan Sarzi </sub> | ![https://github.com/Liminha300](https://avatars.githubusercontent.com/u/179885175?v=4) <br> <sub> Ricardo Kawamuro </sub> |
+| --- | --- | --- |
+| [Gabriel Freitas](https://github.com/freitasszz) | [Kauan Sarzi](https://github.com/KauanSarzi) | [Ricardo Kauamuro](https://github.com/IsabelaReali) | 
+ 
 
     	
  
