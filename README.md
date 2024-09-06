@@ -3,14 +3,14 @@
 <p align="center">Nessa primeira POC (Prova de Conceito) vamos mostrar como o Flexbox, por se tratar de uma forma de layout flexivel e responsivo ajuda a programar com facilidade no CSS</p>
 
 <h3 align="center">Conteúdos do projeto</h3> 
-<p align="center">👇🏼Acesse os nossos conteúdos de forma rápida👇🏼</p>
+<p align="center">👇🏼Os nossos tópicos👇🏼</p>
 <p align="center">
  <a>Conteúdos</a> •
  <a>Pré-requisitos</a> • 
- <a>Tecnologias</a> • 
- <a>Contribuição</a> • 
- <a>Licença</a> • 
- <a>Autor</a>
+ <a>Colocando para funcionar</a> • 
+ <a>Por trás</a> • 
+ <a>O projeto</a> • 
+ <a>Contribuidores</a>
 </p>
 
 <h4 align="center"> 
