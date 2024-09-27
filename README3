@@ -1,0 +1,15 @@
+<h1>Prova de Conceito - Media Queries</h1>
+Este projeto demonstra como utilizar Media Queries em CSS para criar uma experiência responsiva e adaptável em diferentes dispositivos e condições de uso, como impressão e orientações de tela. Abaixo, são explicados os principais conceitos e como as media queries são aplicadas no projeto.
+
+Estrutura do Projeto
+O projeto consiste em uma página HTML que exibe um menu de navegação, uma galeria de imagens, e uma seção de texto explicando sobre Whey Protein. O comportamento da página muda conforme o dispositivo ou modo em que está sendo exibida (ex.: smartphone, tablet, desktop, ou modo de impressão).
+
+Linguagens Utilizadas:
+HTML: Estrutura básica do conteúdo da página.
+CSS: Estilização e responsividade.
+Como Funciona a Responsividade
+A responsividade da página é controlada pelas Media Queries, que permitem adaptar o layout da página de acordo com as características do dispositivo, como largura da tela e orientação. Aqui estão os principais casos de uso:
+
+1. Quebra de Larguras de Tela (Breakpoints)
+As media queries são usadas para ajustar o layout da página com base na largura da tela, criando uma experiência otimizada para diferentes dispositivos, como smartphones, tablets e desktops.
+
