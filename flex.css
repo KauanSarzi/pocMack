@@ -20,13 +20,6 @@ h4{
 }
 
 
-.item{
-  background-color: white;
-  margin: 10px;
-  padding: 20px;
-  
-}
-
 
 .center{
     display: flex;
@@ -38,6 +31,12 @@ h4{
 }
 
 
+.center > div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
 
 .around{
     display: flex;
@@ -46,6 +45,12 @@ h4{
     margin-top: 30px;
 }
 
+.around > div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+  }
 
 
   .between{
@@ -55,7 +60,12 @@ h4{
     margin-top: 30px;
 }
 
-
+.between > div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+  }
 
   .evenly{
     display: flex;
@@ -64,7 +74,12 @@ h4{
     margin-top: 30px;
 }
 
-
+.evenly > div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
 
 .end{
   display: flex;
@@ -73,7 +88,12 @@ h4{
   margin-top: 30px;
 }
 
-
+.end > div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
 
 .start{
   display: flex;
@@ -81,6 +101,22 @@ h4{
   justify-content: flex-start;
   margin-top: 25px;
 }
+
+.start > div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+
+
+
+
+
+
+
+  
 
 
 
@@ -92,7 +128,12 @@ h4{
     height: 240px;
 }
 
-
+.coluna > div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+  }
 
 .reversa{
   display: flex;
@@ -103,6 +144,50 @@ h4{
 }
 
 
+.reversa > div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+
+.row{
+  display: flex;
+  background-color: red;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+
+.row > div{
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -111,86 +196,15 @@ h4{
     display: flex;
     background-color: red;
     flex-direction: row;
-    margin-bottom: 20px;
  
 }
 
-
-
-  .baseline{
-    display: flex;
-    background-color: red;
-    
-    align-items: baseline;
-      
- 
-}
-
-
-  .base{
-    font-size: 10px;
+.linha > div{
     background-color: white;
     margin: 10px;
     padding: 20px;
     
-
   }
-
-
-  .stretch{ 
-    display: flex;
-    background-color: red;
-    align-items: stretch;
-      
-
-
-  }
-
-
-
-
-
-.order{
-  display: flex;
-  background-color: red;
-  flex-wrap: wrap;
-  justify-content: center;
-
-
-
-}
-
-
-  .item1 {
-    order: 2; 
-}
-
-.item2 {
-    order: 3; 
-}
-
-.item3 {
-    order: 1; 
-}
-
-.item4 {
-    order: 5; 
-}
-
-.item5 {
-    order: 4;
-}
-
-.item6 {
-    order: 0; /
-}
-
-
-
-
-
-
-
 
 .wrap{
     display: flex;
@@ -199,8 +213,12 @@ h4{
  
 }
 
-
-
+.wrap > div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+  }
 
   .reversewrap{
     display: flex;
@@ -210,7 +228,12 @@ h4{
 
   }
 
-
+  .reversewrap > div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+    
+  }
 
   .nowrap{
     display: flex;
@@ -219,7 +242,12 @@ h4{
     
   }
 
-
+  .nowrap > div{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+  }
+    
 
 
 
