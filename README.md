@@ -43,10 +43,10 @@ Esse projeto está autorizado pelo MIT
 
 <h2>Como Funciona</h2>
 
-<li>1.O usuário clica no botão "Buscar Localização".</li>
-<li>2.O JavaScript faz uma requisição à API ipify para obter o IP público.</li>
-<li>3.Com o IP em mãos, uma segunda requisição é feita à API ipstack usando uma chave de acesso (access_key), retornando os dados de localização.</li>
-<li>4.As informações de endereço IP, cidade, país, latitude e longitude são exibidas no card.</li>
+1.O usuário clica no botão "Buscar Localização".
+2.O JavaScript faz uma requisição à API ipify para obter o IP público.
+3.Com o IP em mãos, uma segunda requisição é feita à API ipstack usando uma chave de acesso (access_key), retornando os dados de localização.
+4.As informações de endereço IP, cidade, país, latitude e longitude são exibidas no card.
 
 
 
