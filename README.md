@@ -15,30 +15,33 @@ Esse projeto está autorizado pelo MIT
 <p>Este projeto é uma POC (Prova de Conceito) que permite ao usuário buscar informações de geolocalização com base em seu endereço IP. Ao clicar no botão "Buscar Localização", o site faz uma requisição à API ipify para obter o IP do usuário e, em seguida, utiliza o serviço da API ipstack para buscar a localização geográfica correspondente, exibindo os dados na tela.</p>
 
 <h2>Funcionalidades</h2>
-<p><li>Busca do endereço IP público do visitante.
-Exibição da localização (Cidade, País, Latitude, e Longitude) com base no IP.
-</li></p>
+<li>Busca do endereço IP público do visitante.</li>
+<li>Exibição da localização (Cidade, País, Latitude, e Longitude) com base no IP.</li>
 
-<h2>Linguagens Utilizadas:</h2>
+<h2>Tecnologias Utilizadas</h2>
 
-<li>HTML: Estrutura básica do conteúdo da página.</li>
-<li>CSS: Estilização e responsividade.</li>
+<li>HTML5: Estrutura da página.</li>
+<li>CSS3: Estilização da interface.</li>
+<li>JavaScript (ES6): Lógica para buscar o IP e os dados de geolocalização usando APIs.</li>
 
-<h2>Como Funciona a Responsividade</h2>
-<p>A responsividade da página é controlada pelas Media Queries, que permitem adaptar o layout da página de acordo com as características do dispositivo, como largura da tela e orientação. Aqui estão os principais casos de uso:</p>
+<h2>Estrutura do Projeto</h2>
 
-<h3>1. Quebra de Larguras de Tela (Breakpoints)</h3>
-<p>As media queries são usadas para ajustar o layout da página com base na largura da tela, criando uma experiência otimizada para diferentes dispositivos, como smartphones, tablets e desktops.</p>
+<h3>HTML</h3>
+<p>O arquivo index.html define a estrutura da página com os seguintes elementos:</p>
+<li>Um botão para acionar a busca de localização.</li>
+<li>Um card que exibe o endereço IP, cidade, país, latitude e longitude do usuário.</li>
 
-<h3>2. Orientação do Dispositivo (Landscape e Portrait)</h3>
-<p>As media queries também permitem ajustar o layout com base na orientação da tela.</p>
+<h3>CSS</h3>
+<p>A estilização básica é aplicada diretamente no arquivo HTML, com destaque para:</p>
+<li>Centralização do conteúdo e ajuste do layout.</li>
 
-<h3>3. Modo de Impressão</h3>
-<p>Outra aplicação importante das media queries é ajustar o layout quando a página for impressa.</p>
+<h3>JavaScript</h3>
+<p>O arquivo id.js contém a lógica da aplicação:</p>
+<li>API ipify: Utilizada para obter o IP público do usuário.</li>
+<li>API ipstack: Utilizada para converter o IP em dados de geolocalização.</li>
+<li>Utilização de fetch para realizar chamadas assíncronas às APIs.</li>
 
-<h2>Conclusão</h2>
-<p>Este projeto é um exemplo de como usar media queries para adaptar o layout de uma página web a diferentes tamanhos de tela, orientações e modos de exibição, como impressão. A técnica é essencial para criar uma experiência fluida e responsiva em dispositivos variados, desde smartphones até desktops.</p>
-
+<h2>Como Funciona</h2>
 
 
 
