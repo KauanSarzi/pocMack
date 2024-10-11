@@ -45,8 +45,14 @@ Esse projeto está autorizado pelo MIT
 
 <p>1.O usuário clica no botão "Buscar Localização".</p>
 <p>2.O JavaScript faz uma requisição à API ipify para obter o IP público.</p>
-3.Com o IP em mãos, uma segunda requisição é feita à API ipstack usando uma chave de acesso (access_key), retornando os dados de localização.
-4.As informações de endereço IP, cidade, país, latitude e longitude são exibidas no card.
+<p>3.Com o IP em mãos, uma segunda requisição é feita à API ipstack usando uma chave de acesso (access_key), retornando os dados de localização.</p>
+<p>4.As informações de endereço IP, cidade, país, latitude e longitude são exibidas no card.</p>
 
+<h2>Como Usar</h2>
+<li>Baixe ou clone este repositório.</li>
+<li>Abra o arquivo index.html em seu navegador.</li>
+<li>Clique no botão "Buscar Localização" para ver as informações.</li>
 
+<h2>Conclusão</h2>
+<p>Essa POC demonstra de forma simples como utilizar APIs públicas para obter e exibir informações de geolocalização a partir do endereço IP do usuário. O projeto combina tecnologias web básicas como HTML, CSS e JavaScript, mostrando a integração de APIs externas. Pode ser expandido e adaptado para diversas aplicações mais complexas, como personalização de conteúdo baseada na localização ou análise de acessos por região. Com o uso das APIs corretas e um bom entendimento de suas funcionalidades.</p>
 
