@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POC4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: grey;
+        }
+
+        #buscarIP{
+            border-radius: 20px;
+        }
+
+
+        #cardlocaliza {
+            display: inline-block;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .infolocaliza {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Localização por IP</h1>
+    <button id="buscarIP">Buscar Localização</button>
+    <div id="cardlocaliza">
+        <div id="enderecoIP" class="infolocaliza"></div>
+        <div id="cidade" class="infolocaliza"></div>
+        <div id="pais" class="infolocaliza"></div>
+        <div id="latitude" class="infolocaliza"></div>
+        <div id="longitude" class="infolocaliza"></div>
+    </div>
+    <script src="ip.js"></script>
+</body>
+</html>
