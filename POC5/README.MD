@@ -39,6 +39,8 @@
 <li>Next.js - Framework React para criação de aplicações.</li>
 <li>CSS Modules - Utilizado para escopar estilos localmente.</li>
 
+<h2>Conclusão</h2>
+<p>Este projeto demonstra uma estrutura simples e eficaz para uma aplicação Next.js, com componentes reutilizáveis e estilos organizados. Ele serve como uma base sólida para construir aplicações de React dinâmicas e escaláveis, aproveitando o Next.js para a otimização e o roteamento automático. </p>
 
 
 
