@@ -19,7 +19,7 @@
 <li>Button: Um componente de botão estilizado usando um módulo CSS.</li>
 
 <h2>Principais Arquivos</h2>
-<ul>*Page.js*</ul>
+<ul>Page.js</ul>
 <p>Este arquivo define a página inicial da aplicação, renderizando o cabeçalho e o botão.</p>
 <ul>Layout.js</ul>
 <p>Define o layout básico da aplicação e importa o CSS global.</p>
@@ -29,5 +29,6 @@
 <p>Componente de cabeçalho simples.</P>
 <ul>Globals.css</ul>
 <p>Define estilos para toda a aplicação, como a remoção de margens padrão e a escolha da fonte.</p>
+
 
 
