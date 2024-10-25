@@ -21,6 +21,15 @@
 <h2>Principais Arquivos</h2>
 <li>page.js</li>
 <p>Este arquivo define a página inicial da aplicação, renderizando o cabeçalho e o botão.</p>
+<li>layout.js</li>
+<p>Define o layout básico da aplicação e importa o CSS global.</p>
+<li>Button.js</li>
+<p>Componente de botão com estilos CSS aplicados.</p>
+<ul>Header.js</ul>
+<p>Componente de cabeçalho simples.</P>
+<li>globals.css</li>
+<p>Define estilos para toda a aplicação, como a remoção de margens padrão e a escolha da fonte.</p>
+
 
 <h3>1. Quebra de Larguras de Tela (Breakpoints)</h3>
 <p>As media queries são usadas para ajustar o layout da página com base na largura da tela, criando uma experiência otimizada para diferentes dispositivos, como smartphones, tablets e desktops.</p>
