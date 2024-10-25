@@ -1,17 +1,7 @@
 <h1 align="center">POC 5 - REACT</h1>
 
 <h2>Estrutura do Projeto</h2>
-
-├── app/
-│   ├── page.js
-│   ├── layout.js
-│   └── components/
-│       ├── Header.js
-│       └── Button.js
-├── styles/
-│   └── globals.css
-└── README.md
-
+<p>Nesse README vamos falar um pouco sobre o uso do REACT no nosso projeto.</p>
 
 <h2>Componentes</h2>
 
