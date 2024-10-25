@@ -23,12 +23,15 @@
 <p>Este arquivo define a página inicial da aplicação, renderizando o cabeçalho e o botão.</p>
 <ul>Layout.js</ul>
 <p>Define o layout básico da aplicação e importa o CSS global.</p>
-<ul>Button.js</ul>
+<ul>Button.js</ul><br>
 <p>Componente de botão com estilos CSS aplicados.</p>
 <ul>Header.js</ul>
 <p>Componente de cabeçalho simples.</P>
 <ul>Globals.css</ul>
 <p>Define estilos para toda a aplicação, como a remoção de margens padrão e a escolha da fonte.</p>
+
+<h2>Instruções de Uso</h2>
+<p></p>
 
 
 
