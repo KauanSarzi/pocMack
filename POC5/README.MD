@@ -23,7 +23,7 @@
 <p>Este arquivo define a página inicial da aplicação, renderizando o cabeçalho e o botão.</p>
 <ul>Layout.js</ul>
 <p>Define o layout básico da aplicação e importa o CSS global.</p>
-<br><ul>Button.js</ul></br>
+<ul>Button.js</ul>
 <p>Componente de botão com estilos CSS aplicados.</p>
 <ul>Header.js</ul>
 <p>Componente de cabeçalho simples.</P>
@@ -31,7 +31,14 @@
 <p>Define estilos para toda a aplicação, como a remoção de margens padrão e a escolha da fonte.</p>
 
 <h2>Instruções de Uso</h2>
-<p></p>
+<p>1.Instalação de Dependências</p>
+<p>2.Iniciar o Servidor de Desenvolvimento</p>
+<p>3.Construir para Produção</p>
+
+<h2>Tecnologias Utilizadas</h2>
+<li>Next.js - Framework React para criação de aplicações.</li>
+<li>CSS Modules - Utilizado para escopar estilos localmente.</li>
+
 
 
 
