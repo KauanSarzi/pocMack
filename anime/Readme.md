@@ -26,6 +26,7 @@ export function getHeroes(BASE_URL, code, callback) {
 
 Usamos ele como o unico componente "api.js"
 
+<h1>Home</h1>
 Na home criamos duas variaveis para o armazenamento de informaçoes
 IDs de animes são definidos no array animeIds.
 Os dados dos animes são armazenados no estado animes com o hook useState.
