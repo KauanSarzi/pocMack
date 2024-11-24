@@ -35,8 +35,9 @@ export default function Home() {
   const [animes, setAnimes] = useState([]);
   const animeIds = [20, 5231, 1735, 23]; // ID dos animes
 ```
+<br>
 
-  Busca de Dados:
+  <h1>Busca de Dados</h1>
 A função fetchAnimeData é uma função assíncrona que será executada sempre que o componente for montado. Ela faz as requisições à API para obter os dados dos animes.
 
 Dentro da função fetchAnimeData, a lógica de busca de dados segue os seguintes passos:
