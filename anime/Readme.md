@@ -25,8 +25,9 @@ export function getHeroes(BASE_URL, code, callback) {
 ```
 
 Usamos ele como o unico componente "api.js"
+<br>
 
-<h1>Home</h1>
+
 Na home criamos duas variaveis para o armazenamento de informaçoes
 IDs de animes são definidos no array animeIds.
 Os dados dos animes são armazenados no estado animes com o hook useState.
@@ -70,8 +71,8 @@ useEffect(() => {
   }, []);
 ```
 
-  animes.map:
-  Itera sobre o array animes e renderiza um <article> para cada anime.
+<h1>Renderização</h1>
+ O animes.map Itera sobre o array animes e renderiza um <article> para cada anime.
   Estrutura renderizada para cada anime:
   key={anime.mal_id}: Identificador único necessário para elementos em listas no React.
   Exibe título, nota (score), ranking, número de episódios e uma imagem do anime.
