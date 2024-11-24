@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anime - Atividade SuperHeroe
 
-## Getting Started
+Usando a estrutura fornecida para realização da atividade:
 
-First, run the development server:
+``` tsx
+export function getJSON(url, callback) {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", url, true);
+  xhr.responseType = "json";
+  xhr.onload = function () {
+    if (xhr.status === 200) {
+      console.log("Dados recebidos com sucesso!");
+      callback(xhr.response);
+    } else {
+      console.log("Problema ao conectar com a API: " + xhr.status);
+    }
+  };
+  xhr.send();
+}
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+export function getHeroes(BASE_URL, code, callback) {
+  var url = BASE_URL + code;
+  getJSON(url, callback);
+}
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Usamos ele como o unico componente "api.js"
+<br>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Na home criamos duas variaveis para o armazenamento de informaçoes
+IDs de animes são definidos no array animeIds.
+Os dados dos animes são armazenados no estado animes com o hook useState.
 
-## Learn More
+``` tsx
+export default function Home() {
+  const [animes, setAnimes] = useState([]);
+  const animeIds = [20, 5231, 1735, 23]; // ID dos animes
+```
+<br>
 
-To learn more about Next.js, take a look at the following resources:
+  <h1>Busca de Dados</h1>
+A função fetchAnimeData é uma função assíncrona que será executada sempre que o componente for montado. Ela faz as requisições à API para obter os dados dos animes.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Dentro da função fetchAnimeData, a lógica de busca de dados segue os seguintes passos:
+Mapeamento dos IDs para URLs de requisição: O método map é usado para iterar sobre o array animeIds, criando uma requisição para cada ID de anime. A requisição é feita com fetch, passando a URL da API para obter os dados do anime completo
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+``` tsx
+useEffect(() => {
+    const fetchAnimeData = async () => {
+      try {
+        // Fazendo as requisições para os IDs dos animes
+        const fetchPromises = animeIds.map((id) =>
+          fetch(`https://api.jikan.moe/v4/anime/${id}/full`).then((response) =>
+            response.json()
+          )
+        );
 
-## Deploy on Vercel
+        // Aguardando todas as requisições serem completadas
+        const results = await Promise.all(fetchPromises);
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+        // Extraindo os dados relevantes
+        const animeData = results.map((result) => result.data);
+        setAnimes(animeData);
+      } catch (error) {
+        console.error("Erro ao buscar dados de animes:", error);
+      }
+    };
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    fetchAnimeData();
+  }, []);
+```
+
+<h1>Renderização</h1>
+ O animes.map Itera sobre o array animes e renderiza um <article> para cada anime.
+  Estrutura renderizada para cada anime:
+  key={anime.mal_id}: Identificador único necessário para elementos em listas no React.
+  Exibe título, nota (score), ranking, número de episódios e uma imagem do anime.
+  A imagem é exibida com o atributo src apontando para anime.images.jpg.large_image_url.
+
+``` tsx
+return (
+  <div id="anime" className="AnimeList">
+    {animes.map((anime) => (
+      <article key={anime.mal_id} className="Anime">
+        <h2>{anime.title}</h2>
+        <p>Score: {anime.score}</p>
+        <p>Ranking: {anime.rank}</p>
+        <p>Episodes: {anime.episodes}</p>
+        <img
+          src={anime.images.jpg.large_image_url}
+          alt={anime.title}
+          className="AnimeImages"
+        />
+      </article>
+    ))}
+  </div>
+);
+```
+
+
