@@ -37,6 +37,7 @@
 <p>1.Instalação de Dependências</p>
 <p>2.Iniciar o Servidor de Desenvolvimento</p>
 <p>3.Construir para Produção</p>
+
 ![Captura de tela 2024-11-25 003514](https://github.com/user-attachments/assets/146f3734-7246-46ee-b367-2b039ebf0edc)
 
 <h2>Tecnologias Utilizadas</h2>
