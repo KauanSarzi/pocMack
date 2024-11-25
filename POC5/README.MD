@@ -8,6 +8,9 @@
 <li>Header: Um componente de cabeçalho simples que exibe uma mensagem</li>
 <li>Button: Um componente de botão estilizado usando um módulo CSS.</li>
 
+
+
+
 <h2>Principais Arquivos</h2>
 <ul>Page.js</ul>
 <p>Este arquivo define a página inicial da aplicação, renderizando o cabeçalho e o botão.</p>
