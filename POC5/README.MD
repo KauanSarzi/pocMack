@@ -25,7 +25,13 @@
 <ul>Globals.css</ul>
 <p>Define estilos para toda a aplicação, como a remoção de margens padrão e a escolha da fonte.</p><br>
 
-![Captura de tela 2024-11-25 001754](https://github.com/user-attachments/assets/d0584966-67e7-485b-be76-11bb47c55ffc)
+<h1>Page.js</h1>
+![Captura de tela 2024-11-25 002442](https://github.com/user-attachments/assets/af86bc46-daab-462e-917b-efcb5ff7bb5b)
+<h1>Button.module.css</h1>
+![Captura de tela 2024-11-25 002649](https://github.com/user-attachments/assets/18757d7d-2c51-437f-837e-c7b2364b885d)
+<h1>globals.css</h1>
+![Captura de tela 2024-11-25 002542](https://github.com/user-attachments/assets/48b7a8f9-b465-445a-b5f0-9321b9d13cf1)
+
 
 <h2>Instruções de Uso</h2>
 <p>1.Instalação de Dependências</p>
