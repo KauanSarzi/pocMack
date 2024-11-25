@@ -1,4 +1,4 @@
-# Anime - Atividade SuperHeroe
+![image](https://github.com/user-attachments/assets/fec526fd-b27e-4746-a3b2-c8eb77847751)# Anime - Atividade SuperHeroe
 
 Usando a estrutura fornecida para realização da atividade:
 
@@ -99,3 +99,8 @@ return (
 ```
 <h1>RESULTADO</h1>
 ![Captura de tela 2024-11-24 205919](https://github.com/user-attachments/assets/96a55cad-c74c-4d52-b367-fc198cfb6797)
+
+
+
+Ricardo Kiyoshi Kawamuro | 10436944; Kauan Sarzi Da Rocha | 10427235; Gabriel Freitas Curral Miwa | 10435826.
+
