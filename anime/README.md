@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/fec526fd-b27e-4746-a3b2-c8eb77847751)# Anime - Atividade SuperHeroe
+Anime API
 
 Usando a estrutura fornecida para realização da atividade:
 
