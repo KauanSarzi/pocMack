@@ -105,4 +105,3 @@ return (
 
 Ricardo Kiyoshi Kawamuro | 10436944; Kauan Sarzi Da Rocha | 10427235; Gabriel Freitas Curral Miwa | 10435826.
 
-![Captura de tela 2024-11-24 205919](https://github.com/user-attachments/assets/f0f80401-ebcb-4008-a305-5416d62ec598)
