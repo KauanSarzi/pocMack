@@ -1,4 +1,4 @@
-Anime API
+<h1>Anime API</h1>
 
 Usando a estrutura fornecida para realização da atividade:
 
@@ -98,9 +98,11 @@ return (
 );
 ```
 <h1>RESULTADO</h1>
-![Captura de tela 2024-11-24 205919](https://github.com/user-attachments/assets/96a55cad-c74c-4d52-b367-fc198cfb6797)
+
+![Captura de tela 2024-11-24 205919](https://github.com/user-attachments/assets/a011852d-026c-4e48-9a91-7be771d1b1f7)
 
 
 
 Ricardo Kiyoshi Kawamuro | 10436944; Kauan Sarzi Da Rocha | 10427235; Gabriel Freitas Curral Miwa | 10435826.
 
+![Captura de tela 2024-11-24 205919](https://github.com/user-attachments/assets/f0f80401-ebcb-4008-a305-5416d62ec598)
