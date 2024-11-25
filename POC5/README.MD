@@ -24,7 +24,7 @@
 <ul>Globals.css</ul>
 <p>Define estilos para toda a aplicação, como a remoção de margens padrão e a escolha da fonte.</p><br>
 
-![Captura de tela 2024-11-25 000817](https://github.com/user-attachments/assets/b2eba1d4-aa3c-487a-aba8-3de774a2996a)
+![Captura de tela 2024-11-25 001754](https://github.com/user-attachments/assets/d0584966-67e7-485b-be76-11bb47c55ffc)
 
 <h2>Instruções de Uso</h2>
 <p>1.Instalação de Dependências</p>
