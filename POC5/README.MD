@@ -6,7 +6,7 @@
 <h2>Componentes</h2>
 
 <li>Header: Um componente de cabeçalho simples que exibe uma mensagem</li>
-<li>Button: Um componente de botão estilizado usando um módulo CSS.</li>
+<li>Button: Um componente de botão estilizado usando um módulo CSS.</li><br>
 
 ![Captura de tela 2024-11-25 000915](https://github.com/user-attachments/assets/508207db-36cd-4c57-97a7-e6a81606887a)
 
