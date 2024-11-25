@@ -18,6 +18,7 @@
 <ul>Layout.js</ul>
 <p>Define o layout básico da aplicação e importa o CSS global.</p>
 <ul>Button.js</ul>
+<ul>Button.module.css</ul>
 <p>Componente de botão com estilos CSS aplicados.</p>
 <ul>Header.js</ul>
 <p>Componente de cabeçalho simples.</P>
