@@ -1,14 +1,14 @@
-# 🎥 POC6 - Aplicação em NextJS 
+# POC6 - Aplicação em Nextjs
 
-# 📋  **Descrição Geral**
+#   **Descrição Geral**
 **O projeto é um sistema de reserva de assentos para cinemas que permite:**
  
 - Selecionar e reservar assentos.
-- Alternar automaticamente entre modo Light e Dark com base na preferência do sistema operacional, com opção manual.
+- Alternar automaticamente entre modo Light e Dark com base na preferência do sistema operacional.
 - Exibir informações sobre o filme selecionado.
-- Calcular o total da compra em tempo real.
+- Calcular o total da compra.
 
-# 📂  **Estrutura do Projeto**
+#   **Estrutura do Projeto**
 ```
 /app
 ├── /components
@@ -34,7 +34,7 @@
 
 
 ```
-# 📖  **Descrição dos Arquivos**
+#  **Descrição dos Arquivos**
 ## 1. **Estilos Globais (globals.css)**
 **Define os temas Light e Dark, aplicando estilos dinâmicos com variáveis CSS. A alternância ocorre automaticamente**
 **Responsividade dos elementos da pagina estilizados no proprio globals.css**
