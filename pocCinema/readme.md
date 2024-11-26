@@ -531,7 +531,7 @@ export default Legenda;
 </div>
 ```
 
-##**8.Pagina (page.tsx)**
+## **8.Pagina (page.tsx)**
 
 
 **Estrutura do arquivo***
@@ -643,7 +643,7 @@ Exemplo:
 
 
 
-##**RESULTADO**
+## **RESULTADO**
 
 ![Captura de tela 2024-11-26 195115](https://github.com/user-attachments/assets/fc28b1df-ef2b-42f4-ad65-e625fbd55f0d)
 
