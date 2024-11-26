@@ -237,7 +237,7 @@ export default Assento;
 ```
 
 ## **3. Botão de Compra (BotaoComprar.jsx e BotaoComprar.module.css)**
-**Este componente exibe o botão de compra e o total acumulado.**
+Este componente exibe o botão de compra e o total acumulado.
 
 Props:
 - total (número): Preço total dos assentos selecionados.
@@ -420,6 +420,7 @@ const InformacoesFilme = ({ sinopse, dataLancamento, direcao }) => (
 ## **7. Legendas (Legenda.jsx e Legenda.module.css)**
 **Este arquivo implementa o componente React Legenda, que exibe uma legenda visual para indicar o significado dos diferentes estados dos assentos em um cinema. O componente usa estilos definidos no arquivo de módulo CSS chamado Legenda.module.css.**
 **Estrutura do componente**
+
 O componente retorna um elemento <div> com a classe CSS styles.legenda, que contém itens representando os estados dos assentos:
 
 Livre: Representado por uma bolinha estilizada com a classe styles.disponivel.
