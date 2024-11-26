@@ -314,9 +314,9 @@ Props:
 titulo: String que representa o nome do filme.
 horario: String que indica o horário da sessão do filme.
 
-O componente retorna um elemento <header> contendo:
-Um título (<h1>) com o nome do filme.
-Um parágrafo (<p>) que exibe o horário do filme com o rótulo "Horário:" destacado em negrito usando a tag <strong>.
+O componente retorna um elemento ```header``` contendo:
+Um título com o nome do filme.
+Um parágrafo  que exibe o horário do filme com o rótulo "Horário:" destacado em negrito usando a tag .
 
 
 Exemplo de código:
