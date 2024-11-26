@@ -665,6 +665,3 @@ npm run dev
 
 
 
-### :family: Integrantes do Projeto
-
-
