@@ -362,7 +362,9 @@ Retorno JSX:
 Um elemento ```section``` que agrupa e apresenta as informações:
 
 Sinopse: Exibida como texto descritivo após o título "sinopse do filme" em negrito.
+
 Data de Lançamento: Mostrada após o título "Data de lançamento" em negrito.
+
 Direção: Listada após o título "Direção" em negrito.
 
 
@@ -422,7 +424,7 @@ const InformacoesFilme = ({ sinopse, dataLancamento, direcao }) => (
 **Este arquivo implementa o componente React Legenda, que exibe uma legenda visual para indicar o significado dos diferentes estados dos assentos em um cinema. O componente usa estilos definidos no arquivo de módulo CSS chamado Legenda.module.css.**
 **Estrutura do componente**
 
-O componente retorna um elemento <div> com a classe CSS styles.legenda, que contém itens representando os estados dos assentos:
+O componente retorna um elemento ```div``` com a classe CSS styles.legenda, que contém itens representando os estados dos assentos:
 
 Livre: Representado por uma bolinha estilizada com a classe styles.disponivel
 .
@@ -548,7 +550,9 @@ useEffect: Configura o comportamento dinâmico do tema com base na preferência 
 Componentes personalizados:
 
 Cabecalho: Exibe o título e o horário do filme.
+
 Assento: Renderiza cada assento na grade, com interatividade para seleção.
+
 BotaoComprar: Exibe o botão para finalizar a compra e mostra o total acumulado.
 InformacoesFilme: Mostra detalhes como a sinopse, data de lançamento e direção do filme.
 Legenda: Exibe uma legenda visual com os significados dos estados dos assentos.
