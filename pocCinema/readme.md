@@ -355,8 +355,11 @@ export default Cabecalho;
 Props:
 
 sinopse: String que contém a descrição do enredo do filme.
+
 dataLancamento: String com a data de lançamento do filme.
+
 direcao: String com o nome do diretor ou diretores do filme.
+
 Retorno JSX:
 
 Um elemento ```section``` que agrupa e apresenta as informações:
