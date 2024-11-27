@@ -359,7 +359,7 @@ dataLancamento: String com a data de lançamento do filme.
 direcao: String com o nome do diretor ou diretores do filme.
 Retorno JSX:
 
-Um elemento <section> que agrupa e apresenta as informações:
+Um elemento ```section``` que agrupa e apresenta as informações:
 
 Sinopse: Exibida como texto descritivo após o título "sinopse do filme" em negrito.
 Data de Lançamento: Mostrada após o título "Data de lançamento" em negrito.
