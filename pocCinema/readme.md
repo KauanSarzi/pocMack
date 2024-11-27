@@ -239,8 +239,8 @@ export default Assento;
 ## **3. Botão de Compra (BotaoComprar.jsx e BotaoComprar.module.css)**
 Este componente exibe o botão de compra e o total acumulado.
 
-Props:
-- total (número): Preço total dos assentos selecionados.
+**Props:**
+-total (número): Preço total dos assentos selecionados.
 - compra (função): Callback que exibe um alerta ao realizar a compra.
   
 Exemplo de código:
@@ -310,11 +310,12 @@ export default BotaoComprar;
 ## **4. Cabecalho (Cabecalho.jsx e Cabecalho.module.css)**
 **O componente Cabecalho exibe o título do filme e seu horário. Ele é estilizado com o módulo CSS Cabecalho.module.css.**
 
-Props:
-titulo: String que representa o nome do filme.
-horario: String que indica o horário da sessão do filme.
+**Props:**
 
-O componente retorna um elemento ```header``` contendo:
+-titulo: String que representa o nome do filme.
+-horario: String que indica o horário da sessão do filme.
+
+**O componente retorna um elemento ```header``` contendo:**
 Um título com o nome do filme.
 Um parágrafo  que exibe o horário do filme com o rótulo "Horário:" destacado em negrito usando a tag .
 
@@ -354,13 +355,13 @@ export default Cabecalho;
 **Este arquivo define o componente React InformacoesFilme, que exibe informações detalhadas sobre o filme, como a sinopse, a data de lançamento e o nome do diretor. Ele é estilizado usando um módulo CSS chamado InformacoesFilme.module.css.**
 Props:
 
-sinopse: String que contém a descrição do enredo do filme.
+-sinopse: String que contém a descrição do enredo do filme.
 
-dataLancamento: String com a data de lançamento do filme.
+-dataLancamento: String com a data de lançamento do filme.
 
-direcao: String com o nome do diretor ou diretores do filme.
+-direcao: String com o nome do diretor ou diretores do filme.
 
-Retorno JSX:
+**Retorno JSX:**
 
 Um elemento ```section``` que agrupa e apresenta as informações:
 
@@ -545,26 +546,29 @@ export default Legenda;
 
 **Estrutura do arquivo***
 <br>
-React e Hooks:
+**React e Hooks:**
 
 useState: Gerencia o estado do preço total dos assentos selecionados.
+
 useEffect: Configura o comportamento dinâmico do tema com base na preferência de cor do sistema operacional.
 
-Componentes personalizados:
+**Componentes personalizados:**
 
 Cabecalho: Exibe o título e o horário do filme.
 
 Assento: Renderiza cada assento na grade, com interatividade para seleção.
 
 BotaoComprar: Exibe o botão para finalizar a compra e mostra o total acumulado.
+
 InformacoesFilme: Mostra detalhes como a sinopse, data de lançamento e direção do filme.
+
 Legenda: Exibe uma legenda visual com os significados dos estados dos assentos.
 
-Dados:
+**Dados:**
 
 dadosFilme: Importa um JSON com as informações sobre o filme (assentos, título, horário, preço, etc.).
 
-CSS:
+**CSS:**
 
 Inclui o arquivo global de estilos para configurar a aparência da página.
 
