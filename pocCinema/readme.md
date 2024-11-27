@@ -537,10 +537,12 @@ export default Legenda;
 **Estrutura do arquivo***
 <br>
 React e Hooks:
+
 useState: Gerencia o estado do preço total dos assentos selecionados.
 useEffect: Configura o comportamento dinâmico do tema com base na preferência de cor do sistema operacional.
 
 Componentes personalizados:
+
 Cabecalho: Exibe o título e o horário do filme.
 Assento: Renderiza cada assento na grade, com interatividade para seleção.
 BotaoComprar: Exibe o botão para finalizar a compra e mostra o total acumulado.
@@ -548,9 +550,11 @@ InformacoesFilme: Mostra detalhes como a sinopse, data de lançamento e direçã
 Legenda: Exibe uma legenda visual com os significados dos estados dos assentos.
 
 Dados:
+
 dadosFilme: Importa um JSON com as informações sobre o filme (assentos, título, horário, preço, etc.).
 
 CSS:
+
 Inclui o arquivo global de estilos para configurar a aparência da página.
 
 Exemplo de código:
