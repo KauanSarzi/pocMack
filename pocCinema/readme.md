@@ -535,6 +535,7 @@ export default Legenda;
 
 
 **Estrutura do arquivo***
+<br>
 React e Hooks:
 useState: Gerencia o estado do preço total dos assentos selecionados.
 useEffect: Configura o comportamento dinâmico do tema com base na preferência de cor do sistema operacional.
