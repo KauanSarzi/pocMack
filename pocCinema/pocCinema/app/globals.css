@@ -1,0 +1,127 @@
+/* Tema padrão (Light Mode) */
+:root {
+  --background-color: #fbfbfb;
+  --text-color: #050f1f;
+  --corselecionado: rgb(98, 0, 128);
+  --corindisponivel: red;
+  --corlivre: gainsboro;
+}
+
+/* Tema Dark Mode */
+.dark {
+  --background-color: #0c081e;
+  --text-color: #fbfbfb;
+  --corselecionado: rgb(49, 1, 63);
+  --corindisponivel: rgb(173, 15, 15);
+  --corlivre: rgb(110, 110, 110);
+}
+
+/* Aplica o Dark Mode automaticamente com base na preferência do sistema */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-color: #0c081e;
+    --text-color: #fbfbfb;
+    --corselecionado: rgb(49, 1, 63);
+    --corindisponivel: rgb(137, 0, 0);
+    --corlivre: rgb(110, 110, 110);
+  }
+}
+
+/* Estilo Global */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.containerFilho {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  padding: 0;
+  width: 100vh;
+}
+
+.containerPai {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  max-width: 400px;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.grade {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  margin-top: 20px;
+  width: 100%;
+  max-width: 275px;
+  margin: 0 auto;
+  padding: 0;
+  gap: 8px;
+  justify-content: center;
+}
+
+.grade::after {
+  content: "";
+  grid-column: span 2;
+}
+
+.grade > :nth-last-child(4) {
+  grid-column-start: 3;
+}
+
+.tela {
+  background-color: #bababa; /* Cor da tela */
+  width: 300px; /* Ajuste da largura */
+  height: 10px; /* Altura reduzida para parecer mais com uma "barra" */
+  display: flex;
+  justify-content: center; /* Centraliza o texto horizontalmente */
+  align-items: center; /* Centraliza o texto verticalmente */
+  margin-right: 380px; /* Centraliza a barra horizontalmente na página */
+  margin-top: 50px;
+  border-radius: 5px; /* Bordas arredondadas para um visual mais moderno */
+}
+
+h6 {
+  font-weight: 400; /* Peso da fonte médio */
+  font-size: 12px; /* Tamanho menor para parecer com a imagem */
+  text-transform: lowercase; /* Para deixar o texto em minúsculo como na imagem */
+  margin-top: -20px; /* Alinhamento acima da barra */
+  position: relative; /* Necessário para o ajuste de posição */
+}
+
+@media (max-width: 425px) {
+  .containerPai {
+    grid-template-columns: 1fr; /* Continua com uma única coluna */
+    gap: 15px; /* Reduz o espaço entre os itens */
+    width: 100%;
+    padding: 0;
+  }
+
+  .tela {
+    margin-top: 20px; /* Ajusta espaço entre a grade e a "tela" */
+    margin-left: 380px;
+    margin-bottom: 20px; /* Dá mais espaço para outros elementos */
+    width: 250px;
+  }
+
+  .containerFilho {
+    grid-template-columns: 1fr; /* Continua com uma única coluna */
+    gap: 10px; /* Reduz o espaço entre os itens */
+    width: 100%;
+  }
+}

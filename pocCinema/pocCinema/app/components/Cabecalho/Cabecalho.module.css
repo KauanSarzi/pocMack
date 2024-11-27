@@ -1,0 +1,9 @@
+.cabecalho {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.cabecalho h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}

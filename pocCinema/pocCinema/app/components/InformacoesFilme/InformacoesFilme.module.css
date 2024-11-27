@@ -1,0 +1,28 @@
+.informacoes {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  max-width: 350px;
+}
+.informacoes h6 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  /* Oculta a seção de informações do filme */
+  .informacoes {
+    display: none; /* Esconde no modo celular */
+  }
+}
+
+@media (max-width: 576px) {
+  .informacoes {
+    .informacoes {
+      display: flex;
+      flex-direction: column;
+      flex: 1;
+      max-width: 100px;
+    }
+  }
+}
