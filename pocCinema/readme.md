@@ -360,6 +360,7 @@ direcao: String com o nome do diretor ou diretores do filme.
 Retorno JSX:
 
 Um elemento <section> que agrupa e apresenta as informações:
+
 Sinopse: Exibida como texto descritivo após o título "sinopse do filme" em negrito.
 Data de Lançamento: Mostrada após o título "Data de lançamento" em negrito.
 Direção: Listada após o título "Direção" em negrito.
@@ -423,9 +424,12 @@ const InformacoesFilme = ({ sinopse, dataLancamento, direcao }) => (
 
 O componente retorna um elemento <div> com a classe CSS styles.legenda, que contém itens representando os estados dos assentos:
 
-Livre: Representado por uma bolinha estilizada com a classe styles.disponivel.
+Livre: Representado por uma bolinha estilizada com a classe styles.disponivel
+.
 Selecionado: Representado por uma bolinha estilizada com a classe styles.selecionado.
-Indisponível: Representado por uma bolinha estilizada com a classe styles.indisponivel.
+
+Indisponível: Representado por uma bolinha estilizada com a classe styles.indisponivel
+.
 Cada estado é descrito visualmente (com uma bolinha colorida) e textualmente (com uma legenda associada).
 
 Exemplo de codigo: 
