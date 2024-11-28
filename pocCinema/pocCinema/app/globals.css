@@ -104,7 +104,7 @@ h6 {
   position: relative; /* Necessário para o ajuste de posição */
 }
 
-@media (max-width: 425px) {
+@media (max-width: 600px) {
   .containerPai {
     grid-template-columns: 1fr; /* Continua com uma única coluna */
     gap: 15px; /* Reduz o espaço entre os itens */
@@ -123,5 +123,6 @@ h6 {
     grid-template-columns: 1fr; /* Continua com uma única coluna */
     gap: 10px; /* Reduz o espaço entre os itens */
     width: 100%;
+    padding: 0;
   }
 }
