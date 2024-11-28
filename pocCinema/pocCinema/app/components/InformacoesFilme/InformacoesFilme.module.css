@@ -19,10 +19,7 @@
 @media (max-width: 576px) {
   .informacoes {
     .informacoes {
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-      max-width: 100px;
+      display: none;
     }
   }
 }
